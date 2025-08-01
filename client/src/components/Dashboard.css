@@ -1,0 +1,27 @@
+.dashboard {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.income {
+  background-color: #28a745;
+}
+
+.expense {
+  background-color: #dc3545;
+}
+
+.balance {
+  background-color: #007bff;
+}

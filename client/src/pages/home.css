@@ -1,0 +1,63 @@
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.home-container h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.home-container p {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-buttons button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.home-buttons button:hover {
+  background-color: #0056b3;
+}
+.home-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f6f6f6;
+  border-bottom: 2px solid #ccc;
+}
+
+.home-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ✅ centers horizontally */
+  padding: 20px;
+  background-color: #f6f6f6;
+}
